@@ -1,4 +1,4 @@
-require(['models/task', 'jquery'],
+define(['models/task', 'jquery'],
     function(Task, $) {
 
         describe('Task: initialize', function() {
